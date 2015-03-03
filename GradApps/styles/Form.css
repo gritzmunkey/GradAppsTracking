@@ -1,9 +1,11 @@
-﻿.container1 {
+﻿.container1
+{
 	padding: 10px;
     border: 1px solid #cdcdcd;
     float:left;
 }
-.container2 {
+.container2
+{
 	padding: 10px;
     border: 1px solid #cdcdcd;
     clear:both;
@@ -19,7 +21,7 @@
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-    height: 567px;
+    height: 531px;
 }
 .new
 {
@@ -30,7 +32,18 @@
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-    height: 567px;
+    height: 612px;
+}
+.login
+{
+	width:283px;
+    padding:20px;
+	margin: 4% auto 4% auto; 
+	background: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    height: 199px;
 }
 .title {
     background: rgb(241,241,241);
