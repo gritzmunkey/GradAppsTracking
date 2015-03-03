@@ -1,5 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="New.aspx.cs" Inherits="Default2" %>
 
+<!-- form - new application -->
+
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Form.css" type="text/css" />
     <div class="new">
