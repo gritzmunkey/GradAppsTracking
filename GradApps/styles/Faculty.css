@@ -1,0 +1,75 @@
+﻿.newbutton
+{
+	float:none;
+	box-shadow: 0px 6px 10px -2px #686868;
+	padding: 0.5em 1.5em 0.7em 1.5em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.editbutton
+{
+	float:none;
+	box-shadow: 0px 6px 10px -2px #686868;
+	padding: 0.5em 1.5em 0.7em 1.5em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.deletebutton {
+    float: none;
+    box-shadow: 0px 6px 10px -2px #686868;
+    padding: 0.5em 1.5em 0.7em 1.5em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.viewbutton
+{
+	float:none;
+	box-shadow: 0px 6px 10px -2px #686868;
+	padding: 0.5em 1.5em 0.7em 1.5em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.exitbutton
+{
+	float:none;
+	box-shadow: 0px 6px 10px -2px #686868;
+	padding: 0.5em 1.5em 0.7em 1.5em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.uploadbutton
+{
+	float:none;
+	box-shadow: 0px 6px 10px -2px #686868;
+	padding: 0.5em 1.5em 0.7em 1.5em;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.queue
+{
+	width:954px;
+    padding:20px;
+	margin: 4% auto 4% auto; 
+	background: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+    height: 448px;
+}
+.title {
+    width:917px;
+    background: rgb(241,241,241);
+    border-bottom: 1px solid #cdcdcd;
+	padding: 1em;
+	line-height: 16px;
+	font-size: 1em;
+	color: #1D1E20;
+	border-bottom: 1px solid #cdcdcd;
+	font-weight: 600;
+}
