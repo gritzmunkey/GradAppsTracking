@@ -7,12 +7,8 @@ using System.Data.SqlClient;
 
 public class DB
 {
-    // database information
-
     private static SqlConnection GetConnection()
     {
-        // database connection string
-
         var connectionString = new SqlConnectionStringBuilder
         {
             DataSource = "",

@@ -1,8 +1,7 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="FacultyMain.aspx.cs" Inherits="_Default" %>
 
-<!-- view - faculty main -->
-
 <asp:Content ContentPlaceHolderID="Main" runat="server">
+    <link rel="stylesheet" href="styles/Faculty.css" type="text/css" />
     <p>&nbsp;</p>
         <div class="queue">
             <div class="title">UAFS Graduation Application Tracking System</div>
@@ -37,7 +36,6 @@
             <br />
             <asp:Button class="bluebutton newbutton" runat="server" Text="New" Width="95px" OnClick="Unnamed3_Click" />
             <asp:Button class="bluebutton editbutton" runat="server" Text="Edit" Width="95px" OnClick="Unnamed2_Click" />
-            <asp:Button class="bluebutton deletebutton" runat="server" Text="Delete" Width="95px" />
             <asp:Button class="bluebutton viewbutton" runat="server" Text="View" Width="95px" OnClick="Unnamed6_Click" />
             <asp:Button class="bluebutton uploadbutton" runat="server" Text="Upload" Width="100px" ID="Button1" OnClick="Button1_Click" />
             <asp:Button class="bluebutton exitbutton" runat="server" Text="Exit" Width="95px" OnClick="Unnamed7_Click" />

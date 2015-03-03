@@ -8,16 +8,9 @@ using System.Web.UI.WebControls;
 
 public partial class Default2 : System.Web.UI.Page
 {
-    // verify student application information page
-
     private BindingList<Eval> _list = new BindingList<Eval>();
-
-    //---------------------------------------------------------------------------------------------
-
     protected void Page_Load(object sender, EventArgs e)
     {
-        // Displays student's application information - when finished will come from the database
-
         Eval eval = new Eval();
         eval.id="@00228342";
         eval.major = "IT: Programming";
@@ -110,12 +103,8 @@ public partial class Default2 : System.Web.UI.Page
         loadStudent();
     }
 
-    //---------------------------------------------------------------------------------------
-
     private void loadStudent()
     {
-        //For testing purposes. Randomly loads a student.
-
         Random rnd = new Random();
         Eval eval = new Eval();
 
@@ -135,14 +124,8 @@ public partial class Default2 : System.Web.UI.Page
         hoursResidence.Text = eval.hoursResidence;
         dHours.Text = eval.dHours;
     }
-
-    //---------------------------------------------------------------------------------------------
-
     protected void done_Click(object sender, EventArgs e)
     {
-
-        // transfers to faculty main page
-
         Server.Transfer("FacultyMain.aspx");
     }
 }
