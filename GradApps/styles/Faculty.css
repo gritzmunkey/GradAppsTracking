@@ -62,14 +62,3 @@
 	border-radius: 6px;
     height: 448px;
 }
-.title {
-    width:917px;
-    background: rgb(241,241,241);
-    border-bottom: 1px solid #cdcdcd;
-	padding: 1em;
-	line-height: 16px;
-	font-size: 1em;
-	color: #1D1E20;
-	border-bottom: 1px solid #cdcdcd;
-	font-weight: 600;
-}

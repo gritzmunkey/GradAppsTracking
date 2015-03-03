@@ -3,8 +3,8 @@
 <!-- view - student main -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
-    <link rel="stylesheet" href="styles/Student.css" type="text/css" />
-    <div class="verify">
+    <link rel="stylesheet" href="styles/Form.css" type="text/css" />
+    <div class="student">
         <div class="title">Your Degree Status</div>
         <br />
         <div class="container1" style="width: 200px">

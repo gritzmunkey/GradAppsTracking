@@ -42,6 +42,16 @@
 	background: radial-gradient(ellipse at center,  rgb(57,175,244) 0%,rgb(54,165,233) 15%,rgb(43,132,195) 54%,rgb(36,110,169) 85%,rgb(34,105,165) 88%,rgb(31,96,156) 92%,rgb(23,73,133) 100%);
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#39aff4', endColorstr='#174985',GradientType=1 );
 }
+.title {
+    background: rgb(241,241,241);
+    border-bottom: 1px solid #cdcdcd;
+	padding: 1em;
+	line-height: 16px;
+	font-size: 1em;
+	color: #1D1E20;
+	border-bottom: 1px solid #cdcdcd;
+	font-weight: 600;
+}
 .clear
 {
 	clear: both;

@@ -12,6 +12,12 @@
     float:none;
     width: 259px;
 }
+.container3 {
+	padding: 10px;
+    border: 1px solid #cdcdcd;
+    clear:both;
+    float:none;
+}
 .update
 {
 	width:283px;
@@ -32,7 +38,7 @@
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
-    height: 612px;
+    height: 633px;
 }
 .login
 {
@@ -45,16 +51,25 @@
 	border-radius: 6px;
     height: 199px;
 }
-.title {
-    background: rgb(241,241,241);
-    border-bottom: 1px solid #cdcdcd;
-	padding: 1em;
-	line-height: 16px;
-	font-size: 1em;
-	color: #1D1E20;
-	border-bottom: 1px solid #cdcdcd;
-	font-weight: 600;
-    width: 246px;
+.verify
+{
+	width:450px;
+    padding:20px;
+	margin: 4% auto 4% auto; 
+	background: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.student
+{
+	width:222px;
+    padding:20px;
+	margin: 4% auto 4% auto; 
+	background: #FFF;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
 }
 .donebutton
 {

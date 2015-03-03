@@ -3,7 +3,7 @@
 <!-- view - verify application information -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
-    <link rel="stylesheet" href="styles/Verify.css" type="text/css" />
+    <link rel="stylesheet" href="styles/Form.css" type="text/css" />
     <div class="verify">
         <div class="title">Student Evaluation Results</div>
         <br />
