@@ -1,11 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="Update.aspx.cs" Inherits="Default2" %>
 
-<!-- form - update application -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Form.css" type="text/css" />
     <div class="update">
-        <div class="title">Update Student Record</div>
+        <div class="title">Update Application Record</div>
         <br />
          <div class="container1" style="width: 256px">
             <asp:Label ID="Label7" runat="server" Text="Student: "></asp:Label>

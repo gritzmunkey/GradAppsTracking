@@ -1,7 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="GradApps_MasterPage" %>
 
-<!-- Master Page -->
-
 <!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">

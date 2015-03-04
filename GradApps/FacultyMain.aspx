@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="FacultyMain.aspx.cs" Inherits="_Default" %>
 
-<!-- view - faculty main -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Faculty.css" type="text/css" />

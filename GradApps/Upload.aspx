@@ -1,10 +1,9 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="Upload.aspx.cs" Inherits="Upload" %>
 
-<!-- form - upload application -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Form.css" type="text/css" />
-    <div class="new" style="height: 225px">   
+    <div class="new" style="height: 232px">   
         <h3 class="title">Upload Degree Evaluation:</h3> 
         <asp:Label ID="Label1" runat="server" Text="Selected Student:"></asp:Label>
         <br/>

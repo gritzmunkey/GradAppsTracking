@@ -1,6 +1,5 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="FacultyLogin.aspx.cs" Inherits="Login" %>
 
-<!-- form - faculty login -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Form.css" type="text/css" />

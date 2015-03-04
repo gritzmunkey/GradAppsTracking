@@ -1,11 +1,10 @@
 ﻿<%@ Page Language="C#" MasterPageFile="MasterPage.master" AutoEventWireup="true" CodeFile="VerifyPage.aspx.cs" Inherits="Default2" %>
 
-<!-- view - verify application information -->
 
 <asp:Content ContentPlaceHolderID="Main" runat="server">
     <link rel="stylesheet" href="styles/Form.css" type="text/css" />
     <div class="verify">
-        <div class="title">Student Evaluation Results</div>
+        <div class="title">Student Application Evaluation</div>
         <br />
         <div class="container1" style="width: 200px">
             <asp:Label ID="Label1" runat="server" Text="ID: "></asp:Label>
@@ -20,6 +19,7 @@
             <asp:TextBox ID="minor" runat="server" ReadOnly="True" Width="125px"></asp:TextBox>
             <br />
         </div>
+        <br />
         <div class="container2" style="width: 200px">
             <asp:Label ID="Label4" runat="server" Text="GPA: "></asp:Label>
             <asp:TextBox ID="gpa" runat="server" ReadOnly="True" Width="32px"></asp:TextBox>
