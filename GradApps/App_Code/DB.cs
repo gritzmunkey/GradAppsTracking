@@ -13,23 +13,23 @@ public class DB
     {
         // database connection string
 
-        //var connectionString = new SqlConnectionStringBuilder
-        //{
-        //    DataSource = "70.178.213.41",
-        //    UserID = "TGACAPSTONE'\'DBAll Team One",
-        //    Password = ""
-        //};
+        var connectionString = new SqlConnectionStringBuilder
+        {
+            DataSource = "70.178.213.41",
+            UserID = "TGACAPSTONE'\'DBAll Team One",
+            Password = ""
+        };
 
-        SqlConnection myConnection = new SqlConnection("user id=TGACAPSTONE'\'DBAll Team One;" +
-                                       "password=password;server=serverurl;" +
-                                       "Trusted_Connection=yes;" +
-                                       "database=TGA_Project; " +
-                                       "connection timeout=30");
+        //SqlConnection myConnection = new SqlConnection("user id=TGACAPSTONE'\'DBAll Team One;" +
+        //                               "password=password;server=serverurl;" +
+        //                               "Trusted_Connection=yes;" +
+        //                               "database=TGA_Project; " +
+        //                               "connection timeout=30");
 
-        //var connection = new SqlConnection(connectionString.ToString());
+        var connection = new SqlConnection(connectionString.ToString());
 
-        myConnection.Open();
+        connection.Open();
 
-        return myConnection;
+        return connection;
     }
 }
